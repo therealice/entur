@@ -1,0 +1,24 @@
+{
+  "name": "naar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Christoffer Nawang Aarøy Thondrup <christoffer.thondrup@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@entur/sdk": "^0.10.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
